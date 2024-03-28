@@ -1,6 +1,8 @@
 # guinea-pig-care-ios
 iPhone app providing an information source for proper care of Guinea Pigs
 
+![Guinea Pig Care icon](GuineaPigComplete/GuineaPigComplete/Assets.xcassets/AppIcon.appiconset/180.png)
+
 # Resources
 
 * [Phind thread](https://www.phind.com/agent?cache=clu900qvi0005l108iam5im5p)
