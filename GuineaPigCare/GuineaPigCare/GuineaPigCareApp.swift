@@ -1,6 +1,6 @@
 //
-//  GuineaPigCompleteApp.swift
-//  GuineaPigComplete
+//  GuineaPigCareApp.swift
+//  GuineaPigCare
 //
 //  Created by Ken on 3/26/24.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct GuineaPigCompleteApp: App {
+struct GuineaPigCareApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

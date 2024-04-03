@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BE3D81772BBCED8500A94190 /* EssentialResourcesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3D81762BBCED8500A94190 /* EssentialResourcesView.swift */; };
-		BEAC60E92BB3935F007B08F6 /* GuineaPigCompleteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAC60E82BB3935F007B08F6 /* GuineaPigCompleteApp.swift */; };
+		BEAC60E92BB3935F007B08F6 /* GuineaPigCareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAC60E82BB3935F007B08F6 /* GuineaPigCareApp.swift */; };
 		BEAC60EB2BB3935F007B08F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAC60EA2BB3935F007B08F6 /* ContentView.swift */; };
 		BEAC60ED2BB39360007B08F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEAC60EC2BB39360007B08F6 /* Assets.xcassets */; };
 		BEAC60F02BB39360007B08F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEAC60EF2BB39360007B08F6 /* Preview Assets.xcassets */; };
@@ -17,8 +17,8 @@
 
 /* Begin PBXFileReference section */
 		BE3D81762BBCED8500A94190 /* EssentialResourcesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialResourcesView.swift; sourceTree = "<group>"; };
-		BEAC60E52BB3935F007B08F6 /* GuineaPigComplete.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuineaPigComplete.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BEAC60E82BB3935F007B08F6 /* GuineaPigCompleteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuineaPigCompleteApp.swift; sourceTree = "<group>"; };
+		BEAC60E52BB3935F007B08F6 /* GuineaPigCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuineaPigCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEAC60E82BB3935F007B08F6 /* GuineaPigCareApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuineaPigCareApp.swift; sourceTree = "<group>"; };
 		BEAC60EA2BB3935F007B08F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BEAC60EC2BB39360007B08F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEAC60EF2BB39360007B08F6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -39,7 +39,7 @@
 		BEAC60DC2BB3935F007B08F6 = {
 			isa = PBXGroup;
 			children = (
-				BEAC60E72BB3935F007B08F6 /* GuineaPigComplete */,
+				BEAC60E72BB3935F007B08F6 /* GuineaPigCare */,
 				BEAC60E62BB3935F007B08F6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,22 +47,22 @@
 		BEAC60E62BB3935F007B08F6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BEAC60E52BB3935F007B08F6 /* GuineaPigComplete.app */,
+				BEAC60E52BB3935F007B08F6 /* GuineaPigCare.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BEAC60E72BB3935F007B08F6 /* GuineaPigComplete */ = {
+		BEAC60E72BB3935F007B08F6 /* GuineaPigCare */ = {
 			isa = PBXGroup;
 			children = (
-				BEAC60E82BB3935F007B08F6 /* GuineaPigCompleteApp.swift */,
+				BEAC60E82BB3935F007B08F6 /* GuineaPigCareApp.swift */,
 				BEAC60EA2BB3935F007B08F6 /* ContentView.swift */,
 				BEAC60EC2BB39360007B08F6 /* Assets.xcassets */,
 				BEAC60EE2BB39360007B08F6 /* Preview Content */,
 				BEF719BE2BBCCC36005277AF /* BasicsView.swift */,
 				BE3D81762BBCED8500A94190 /* EssentialResourcesView.swift */,
 			);
-			path = GuineaPigComplete;
+			path = GuineaPigCare;
 			sourceTree = "<group>";
 		};
 		BEAC60EE2BB39360007B08F6 /* Preview Content */ = {
@@ -76,9 +76,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BEAC60E42BB3935F007B08F6 /* GuineaPigComplete */ = {
+		BEAC60E42BB3935F007B08F6 /* GuineaPigCare */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BEAC60F32BB39360007B08F6 /* Build configuration list for PBXNativeTarget "GuineaPigComplete" */;
+			buildConfigurationList = BEAC60F32BB39360007B08F6 /* Build configuration list for PBXNativeTarget "GuineaPigCare" */;
 			buildPhases = (
 				BEAC60E12BB3935F007B08F6 /* Sources */,
 				BEAC60E22BB3935F007B08F6 /* Frameworks */,
@@ -88,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = GuineaPigComplete;
-			productName = GuineaPigComplete;
-			productReference = BEAC60E52BB3935F007B08F6 /* GuineaPigComplete.app */;
+			name = GuineaPigCare;
+			productName = GuineaPigCare;
+			productReference = BEAC60E52BB3935F007B08F6 /* GuineaPigCare.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BEAC60E02BB3935F007B08F6 /* Build configuration list for PBXProject "GuineaPigComplete" */;
+			buildConfigurationList = BEAC60E02BB3935F007B08F6 /* Build configuration list for PBXProject "GuineaPigCare" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BEAC60E42BB3935F007B08F6 /* GuineaPigComplete */,
+				BEAC60E42BB3935F007B08F6 /* GuineaPigCare */,
 			);
 		};
 /* End PBXProject section */
@@ -146,7 +146,7 @@
 				BEAC60EB2BB3935F007B08F6 /* ContentView.swift in Sources */,
 				BE3D81772BBCED8500A94190 /* EssentialResourcesView.swift in Sources */,
 				BEF719BF2BBCCC36005277AF /* BasicsView.swift in Sources */,
-				BEAC60E92BB3935F007B08F6 /* GuineaPigCompleteApp.swift in Sources */,
+				BEAC60E92BB3935F007B08F6 /* GuineaPigCareApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +279,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"GuineaPigComplete/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"GuineaPigCare/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -292,7 +292,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kenshih.GuineaPigComplete;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kenshih.GuineaPigCare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -307,7 +307,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"GuineaPigComplete/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"GuineaPigCare/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -320,7 +320,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kenshih.GuineaPigComplete;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kenshih.GuineaPigCare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -331,7 +331,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BEAC60E02BB3935F007B08F6 /* Build configuration list for PBXProject "GuineaPigComplete" */ = {
+		BEAC60E02BB3935F007B08F6 /* Build configuration list for PBXProject "GuineaPigCare" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BEAC60F12BB39360007B08F6 /* Debug */,
@@ -340,7 +340,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BEAC60F32BB39360007B08F6 /* Build configuration list for PBXNativeTarget "GuineaPigComplete" */ = {
+		BEAC60F32BB39360007B08F6 /* Build configuration list for PBXNativeTarget "GuineaPigCare" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BEAC60F42BB39360007B08F6 /* Debug */,

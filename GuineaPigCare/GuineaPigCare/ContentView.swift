@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  GuineaPigComplete
+//  GuineaPigCare
 //
 //  Created by Ken on 3/26/24.
 //

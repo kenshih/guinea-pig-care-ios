@@ -1,6 +1,6 @@
 //
 //  EssentialResourcesView.swift
-//  GuineaPigComplete
+//  GuineaPigCare
 //
 //  Created by Ken on 4/2/24.
 //
