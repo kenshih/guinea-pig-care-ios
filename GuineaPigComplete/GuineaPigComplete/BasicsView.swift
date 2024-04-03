@@ -41,8 +41,6 @@ So, to be a guinea pig or not to be? Despite the occasional run-ins with predato
 """)
                     .font(.body)
                     .lineLimit(nil) // Allows the text to wrap and take up as much space as needed
-                
-                // Add more text or other views here as needed
             }
             .padding()
         }

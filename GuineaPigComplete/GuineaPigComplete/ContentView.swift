@@ -23,7 +23,12 @@ struct ContentView: View {
                 List {
                     NavigationLink(destination: BasicsView()) {
                         Image(systemName: "info.circle")
+
                         Text("Basics")
+                    }
+                    NavigationLink(destination: EssentialResourcesView()) {
+                        Image(systemName: "link.circle.fill")
+                        Text("Essential Resources")
                     }
                     HStack {
                         Image(systemName: "heart.fill")
@@ -58,6 +63,7 @@ struct ContentView: View {
                         Image(systemName: "leaf")
                         Text("Youth")
                     }
+                    
                 }
                 .cornerRadius(20)
             }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE3D81772BBCED8500A94190 /* EssentialResourcesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3D81762BBCED8500A94190 /* EssentialResourcesView.swift */; };
 		BEAC60E92BB3935F007B08F6 /* GuineaPigCompleteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAC60E82BB3935F007B08F6 /* GuineaPigCompleteApp.swift */; };
 		BEAC60EB2BB3935F007B08F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAC60EA2BB3935F007B08F6 /* ContentView.swift */; };
 		BEAC60ED2BB39360007B08F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEAC60EC2BB39360007B08F6 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE3D81762BBCED8500A94190 /* EssentialResourcesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialResourcesView.swift; sourceTree = "<group>"; };
 		BEAC60E52BB3935F007B08F6 /* GuineaPigComplete.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuineaPigComplete.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEAC60E82BB3935F007B08F6 /* GuineaPigCompleteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuineaPigCompleteApp.swift; sourceTree = "<group>"; };
 		BEAC60EA2BB3935F007B08F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				BEAC60EC2BB39360007B08F6 /* Assets.xcassets */,
 				BEAC60EE2BB39360007B08F6 /* Preview Content */,
 				BEF719BE2BBCCC36005277AF /* BasicsView.swift */,
+				BE3D81762BBCED8500A94190 /* EssentialResourcesView.swift */,
 			);
 			path = GuineaPigComplete;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEAC60EB2BB3935F007B08F6 /* ContentView.swift in Sources */,
+				BE3D81772BBCED8500A94190 /* EssentialResourcesView.swift in Sources */,
 				BEF719BF2BBCCC36005277AF /* BasicsView.swift in Sources */,
 				BEAC60E92BB3935F007B08F6 /* GuineaPigCompleteApp.swift in Sources */,
 			);
